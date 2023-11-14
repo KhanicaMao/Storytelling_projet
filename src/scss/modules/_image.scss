@@ -7,148 +7,219 @@
   text-align: center;
   font-size: 30px;
   border: 2px solid yellow;
+  padding: 250px;
 }
 
 .element-selection-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-1 {
-  width: 30%;
-  height: 100px;
-  position: absolute;
-  right: 50%;
-  top: 50%;
+  width: 378px;
+  height: 611px;
   background-color: rgb(135, 96, 38);
+  margin-bottom: 120px;
 }
 
 .image-2 {
-  width: 60%;
-  height: 100px;
+  width: 378px;
+  height: 498px;
   background-color: blanchedalmond;
   border: 1px solid black;
-  position: absolute;
-  right: 50%;
-  top: 15%;
+  margin-bottom: 121px;
 }
 
 .element-selection-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-3 {
-  width: 100px;
-  height: 100px;
-  background-color: blanchedalmond;
+  width: 898px;
+  height: 360px;
+  background-color: rgb(88, 204, 34);
   border: 1px solid black;
+  margin-bottom: 112px;
 }
 
 .element-selection-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-4 {
-  width: 100px;
-  height: 100px;
+  width: 371px;
+  height: 381px;
   background-color: rgb(240, 72, 72);
   border: 1px solid black;
 }
 
 .image-5 {
-  width: 100px;
-  height: 100px;
+  width: 663px;
+  height: 284px;
   background-color: rgb(112, 147, 41);
   border: 1px solid black;
 }
 
 .element-selection-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-6 {
-  width: 100px;
-  height: 100px;
+  width: 355px;
+  height: 376px;
   background-color: rgb(99, 74, 198);
   border: 1px solid black;
+  margin-top: 162px;
 }
 
 .image-7 {
-  width: 100px;
-  height: 100px;
+  width: 383px;
+  height: 423px;
   background-color: rgb(172, 104, 119);
   border: 1px solid black;
+  margin-bottom: 248px;
 }
 
 .element-selection-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-8 {
-  width: 100px;
-  height: 100px;
+  width: 370px;
+  height: 363px;
   background-color: rgb(62, 3, 3);
   border: 1px solid black;
+  margin-top: 270px;
 }
 
 .image-9 {
-  width: 100px;
-  height: 100px;
+  width: 380px;
+  height: 373px;
   background-color: rgb(109, 169, 107);
   border: 1px solid black;
+  margin-top: 450px;
 }
 
 .image-10 {
-  width: 100px;
-  height: 100px;
+  width: 361px;
+  height: 353px;
   background-color: rgb(65, 64, 126);
   border: 1px solid black;
 }
 
 .element-selection-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-11 {
-  width: 100px;
-  height: 100px;
+  width: 474px;
+  height: 461px;
   background-color: rgb(241, 123, 231);
   border: 1px solid black;
+  margin-top: 186px;
+  margin-bottom: 188px;
 }
 
 .element-selection-7 {
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-12 {
-  width: 100px;
-  height: 100px;
+  width: 475px;
+  height: 676px;
   background-color: rgb(182, 106, 106);
   border: 1px solid black;
+  margin-bottom: 273px;
 }
 
 .element-selection-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid white;
   position: relative;
-  aspect-ratio: 1/ 1.5;
 }
 
 .image-13 {
-  width: 100px;
-  height: 100px;
+  width: 360px;
+  height: 453px;
   background-color: rgb(253, 13, 13);
+  border: 1px solid black;
+  margin-top: 276px;
+}
+
+.image-14 {
+  width: 569.035px;
+  height: 521px;
+  background-color: rgb(253, 133, 13);
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 166px;
+}
+
+.image-15 {
+  width: 322px;
+  height: 627px;
+  background-color: rgb(253, 245, 13);
+  border: 1px solid black;
+}
+
+.image-16 {
+  width: 562px;
+  height: 550px;
+  background-color: rgb(13, 253, 17);
+  border: 1px solid black;
+}
+
+.image-17 {
+  width: 296px;
+  height: 388px;
+  background-color: rgb(13, 129, 253);
+  border: 1px solid black;
+}
+
+.image-18 {
+  width: 417px;
+  height: 681px;
+  background-color: rgb(97, 13, 253);
+  border: 1px solid black;
+  margin-bottom: 180px;
+}
+
+.element-selection-9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid white;
+  position: relative;
+}
+
+.image-19 {
+  width: 750px;
+  height: 721px;
+  background-color: rgb(219, 115, 41);
   border: 1px solid black;
 }

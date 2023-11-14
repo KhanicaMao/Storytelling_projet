@@ -18,7 +18,12 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 17px;
+}
+
 .presentation-text p {
+  font-size: 16px;
   padding: 0 70px;
   position: relative;
 }
@@ -26,6 +31,12 @@
 .button-achat {
   border: 1px solid currentColor;
   border-radius: 30px;
+  color: white;
+  background-color: black;
+}
+
+.button-achat p {
+  font-size: 15px;
 }
 
 .lien-librairie {
