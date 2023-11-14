@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 50px 0 50px 0;
+
+  color: white;
+  background-color: black;
+}
+
+.logo p {
+  color: white;
+}
+
+.communication {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dargaud {
+  width: 30%;
+}
+
+.dargaud .show-teaser {
+  margin-top: 20px;
+}
