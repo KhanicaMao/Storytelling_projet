@@ -1,0 +1,34 @@
+.bd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: white;
+}
+
+.image {
+  width: 480px;
+  height: 480px;
+  background-color: rgb(92, 92, 92);
+  border: 1px solid black;
+}
+
+.presentation-text {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.presentation-text p {
+  padding: 0 70px;
+  position: relative;
+}
+
+.button-achat {
+  border: 1px solid currentColor;
+  border-radius: 30px;
+}
+
+.lien-librairie {
+  padding-top: 30px;
+  color: gray;
+}

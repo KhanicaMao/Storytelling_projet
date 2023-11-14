@@ -30,6 +30,7 @@ img, video {
 .nav {
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 30px;
   display: flex;
 }
 
@@ -69,7 +70,7 @@ img, video {
 
 .parallax-layer.layer1 {
   width: 100%;
-  height: 50rem;
+  height: 70rem;
   background-color: #555;
 }
 
@@ -91,15 +92,189 @@ img, video {
   background-color: #000;
 }
 
-.element-1, .element-2, .element-3 {
-  border: 1px solid #fff;
+.narration {
+  color: #fff;
+  text-align: center;
+  border: 2px solid #ff0;
+  font-size: 30px;
 }
 
-.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7, .image-8, .image-9, .image-10, .image-13, .image-14, .image-15 {
+.element-selection-1 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-1 {
+  width: 30%;
+  height: 100px;
+  background-color: #876026;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.image-2 {
+  width: 60%;
+  height: 100px;
+  background-color: #ffebcd;
+  border: 1px solid #000;
+  position: absolute;
+  top: 15%;
+  right: 50%;
+}
+
+.element-selection-2 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-3 {
   width: 100px;
   height: 100px;
   background-color: #ffebcd;
   border: 1px solid #000;
+}
+
+.element-selection-3 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-4 {
+  width: 100px;
+  height: 100px;
+  background-color: #f04848;
+  border: 1px solid #000;
+}
+
+.image-5 {
+  width: 100px;
+  height: 100px;
+  background-color: #709329;
+  border: 1px solid #000;
+}
+
+.element-selection-4 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-6 {
+  width: 100px;
+  height: 100px;
+  background-color: #634ac6;
+  border: 1px solid #000;
+}
+
+.image-7 {
+  width: 100px;
+  height: 100px;
+  background-color: #ac6877;
+  border: 1px solid #000;
+}
+
+.element-selection-5 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-8 {
+  width: 100px;
+  height: 100px;
+  background-color: #3e0303;
+  border: 1px solid #000;
+}
+
+.image-9 {
+  width: 100px;
+  height: 100px;
+  background-color: #6da96b;
+  border: 1px solid #000;
+}
+
+.image-10 {
+  width: 100px;
+  height: 100px;
+  background-color: #41407e;
+  border: 1px solid #000;
+}
+
+.element-selection-6 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-11 {
+  width: 100px;
+  height: 100px;
+  background-color: #f17be7;
+  border: 1px solid #000;
+}
+
+.element-selection-7 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-12 {
+  width: 100px;
+  height: 100px;
+  background-color: #b66a6a;
+  border: 1px solid #000;
+}
+
+.element-selection-8 {
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.image-13 {
+  width: 100px;
+  height: 100px;
+  background-color: #fd0d0d;
+  border: 1px solid #000;
+}
+
+.bd {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.image {
+  width: 480px;
+  height: 480px;
+  background-color: #5c5c5c;
+  border: 1px solid #000;
+}
+
+.presentation-text {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.presentation-text p {
+  padding: 0 70px;
+  position: relative;
+}
+
+.button-achat {
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.lien-librairie {
+  color: gray;
+  padding-top: 30px;
 }
 
 .footer {
@@ -128,6 +303,20 @@ img, video {
 
 .dargaud .show-teaser {
   margin-top: 20px;
+}
+
+.confidentiel {
+  color: #fff;
+  color: #fff;
+  background-color: #000;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.confidentiel .signature {
+  margin: 0 30px;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */

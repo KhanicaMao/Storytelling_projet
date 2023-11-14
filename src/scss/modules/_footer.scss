@@ -27,3 +27,18 @@
 .dargaud .show-teaser {
   margin-top: 20px;
 }
+
+.confidentiel {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  color: white;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+.confidentiel .signature {
+  margin: 0 30px;
+}

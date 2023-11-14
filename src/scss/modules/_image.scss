@@ -2,30 +2,42 @@
   background-color: black;
 }
 
-.element-1 {
-  border: 1px solid white;
+.narration {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid yellow;
 }
 
-.element-2 {
+.element-selection-1 {
   border: 1px solid white;
-}
-
-.element-3 {
-  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
 }
 
 .image-1 {
-  width: 100px;
+  width: 30%;
   height: 100px;
-  background-color: blanchedalmond;
-  border: 1px solid black;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  background-color: rgb(135, 96, 38);
 }
 
 .image-2 {
-  width: 100px;
+  width: 60%;
   height: 100px;
   background-color: blanchedalmond;
   border: 1px solid black;
+  position: absolute;
+  right: 50%;
+  top: 15%;
+}
+
+.element-selection-2 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
 }
 
 .image-3 {
@@ -35,72 +47,108 @@
   border: 1px solid black;
 }
 
+.element-selection-3 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
+}
+
 .image-4 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(240, 72, 72);
   border: 1px solid black;
 }
 
 .image-5 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(112, 147, 41);
   border: 1px solid black;
+}
+
+.element-selection-4 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
 }
 
 .image-6 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(99, 74, 198);
   border: 1px solid black;
 }
 
 .image-7 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(172, 104, 119);
   border: 1px solid black;
+}
+
+.element-selection-5 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
 }
 
 .image-8 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(62, 3, 3);
   border: 1px solid black;
 }
 
 .image-9 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(109, 169, 107);
   border: 1px solid black;
 }
 
 .image-10 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(65, 64, 126);
   border: 1px solid black;
+}
+
+.element-selection-6 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
+}
+
+.image-11 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(241, 123, 231);
+  border: 1px solid black;
+}
+
+.element-selection-7 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
+}
+
+.image-12 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(182, 106, 106);
+  border: 1px solid black;
+}
+
+.element-selection-8 {
+  border: 1px solid white;
+  position: relative;
+  aspect-ratio: 1/ 1.5;
 }
 
 .image-13 {
   width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
-  border: 1px solid black;
-}
-
-.image-14 {
-  width: 100px;
-  height: 100px;
-  background-color: blanchedalmond;
-  border: 1px solid black;
-}
-
-.image-15 {
-  width: 100px;
-  height: 100px;
-  background-color: blanchedalmond;
+  background-color: rgb(253, 13, 13);
   border: 1px solid black;
 }
