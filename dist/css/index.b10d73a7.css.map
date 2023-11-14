@@ -1,0 +1,1 @@
+{"mappings":"ACWA;;;;;;AAMA;;;;AAIA;;;;;;;;AASA;;;;AAIA","sources":["src/scss/main.scss","src/scss/_base.scss"],"sourcesContent":["@import \"base\";\n@import \"layout\";\n@import \"modules/example\";",null],"names":[],"version":3,"file":"index.b10d73a7.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.button-nav {
+  border: 1px solid currentColor;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-nav p {
+  padding: 5px 10px;
+}
