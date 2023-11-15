@@ -7,10 +7,16 @@
 }
 
 .image {
-  width: 480px;
-  height: 480px;
-  background-color: rgb(92, 92, 92);
+  width: 500px;
+  height: 500px;
   border: 1px solid black;
+  position: relative;
+}
+
+.image img {
+  position: absolute;
+  right: 20%;
+  top: 9%;
 }
 
 .presentation-text {

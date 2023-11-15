@@ -322,10 +322,16 @@ img, video {
 }
 
 .image {
-  width: 480px;
-  height: 480px;
-  background-color: #5c5c5c;
+  width: 500px;
+  height: 500px;
   border: 1px solid #000;
+  position: relative;
+}
+
+.image img {
+  position: absolute;
+  top: 9%;
+  right: 20%;
 }
 
 .presentation-text {
