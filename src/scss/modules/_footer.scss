@@ -41,6 +41,15 @@
   line-height: normal;
 }
 
+.a-propos {
+  width: 25%;
+}
+
+.lien a:hover {
+  color: rgb(247, 32, 114);
+  opacity: 0.9;
+}
+
 .confidentiel {
   color: white;
   display: flex;

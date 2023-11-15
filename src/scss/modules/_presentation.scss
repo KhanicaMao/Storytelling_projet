@@ -1,17 +1,15 @@
 .bd {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
   background-color: white;
 }
 
 .image {
-  width: auto;
+  width: 90%;
   display: flex;
   justify-content: center;
-  margin: 120px 0 109px 150px;
-  border: 1px solid black;
+  margin: 110px 0 95px 100px;
 }
 
 .presentation-text {
@@ -19,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 90px 0;
+  margin: 90px 0 90px 110px;
 }
 
 .presentation-text h2 {
@@ -33,7 +31,6 @@
 
 .presentation-text p {
   font-size: 16px;
-  padding: 0 70px;
   margin-bottom: 20px;
 }
 
@@ -54,4 +51,10 @@
 
 .lien-librairie {
   color: gray;
+}
+
+.lien-librairie a:hover {
+  color: rgb(247, 32, 114);
+  background-color: #3c1223;
+  opacity: 0.9;
 }

@@ -3,6 +3,11 @@
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 30px;
+  color: white;
+  position: absolute;
+  top: 13px;
+  left: 628px;
+  z-index: 1;
 }
 
 .button-nav {
@@ -10,8 +15,18 @@
   border-radius: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  background-color: #3c1223;
 }
 
-.button-nav p {
-  padding: 5px 10px;
+.point-de-vente {
+  color: #3c1223;
+  background-color: white;
+}
+
+.button-nav a p {
+  padding: 6px 20px;
+}
+
+a {
+  text-decoration: none;
 }
