@@ -13,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
   margin: 0;
+  font-family: Lato;
   font-size: 1rem;
   line-height: 1.25;
 }
@@ -65,26 +66,23 @@ img, video {
 }
 
 .layer3 {
-  transform: translateZ(-2px);
+  transform: translateZ(0);
 }
 
 .parallax-layer.layer1 {
   width: 100%;
-  height: 70rem;
-  background-color: #555;
+  height: 40rem;
 }
 
 .parallax-layer.layer2 {
   width: 100%;
   height: 50rem;
-  background-color: #091109;
   top: 10rem;
 }
 
 .parallax-layer.layer3 {
   width: 100%;
   height: 50rem;
-  background-color: #fff;
   top: 20rem;
 }
 
@@ -95,9 +93,21 @@ img, video {
 .narration {
   color: #fff;
   text-align: center;
-  border: 2px solid #ff0;
-  padding: 250px;
+  padding: 158px 300px;
   font-size: 30px;
+}
+
+.narration p {
+  margin: 47px 0;
+  font-family: Lora;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.hornement-narration-1 .hornement-narration-2 {
+  width: 100%;
 }
 
 .element-selection-1 {
@@ -111,15 +121,12 @@ img, video {
 .image-1 {
   width: 378px;
   height: 611px;
-  background-color: #876026;
   margin-bottom: 120px;
 }
 
 .image-2 {
   width: 378px;
   height: 498px;
-  background-color: #ffebcd;
-  border: 1px solid #000;
   margin-bottom: 121px;
 }
 
@@ -134,8 +141,6 @@ img, video {
 .image-3 {
   width: 898px;
   height: 360px;
-  background-color: #58cc22;
-  border: 1px solid #000;
   margin-bottom: 112px;
 }
 
@@ -150,15 +155,11 @@ img, video {
 .image-4 {
   width: 371px;
   height: 381px;
-  background-color: #f04848;
-  border: 1px solid #000;
 }
 
 .image-5 {
   width: 663px;
   height: 284px;
-  background-color: #709329;
-  border: 1px solid #000;
 }
 
 .element-selection-4 {
@@ -172,16 +173,12 @@ img, video {
 .image-6 {
   width: 355px;
   height: 376px;
-  background-color: #634ac6;
-  border: 1px solid #000;
   margin-top: 162px;
 }
 
 .image-7 {
   width: 383px;
   height: 423px;
-  background-color: #ac6877;
-  border: 1px solid #000;
   margin-bottom: 248px;
 }
 
@@ -196,24 +193,18 @@ img, video {
 .image-8 {
   width: 370px;
   height: 363px;
-  background-color: #3e0303;
-  border: 1px solid #000;
   margin-top: 270px;
 }
 
 .image-9 {
   width: 380px;
   height: 373px;
-  background-color: #6da96b;
-  border: 1px solid #000;
   margin-top: 450px;
 }
 
 .image-10 {
   width: 361px;
   height: 353px;
-  background-color: #41407e;
-  border: 1px solid #000;
 }
 
 .element-selection-6 {
@@ -227,8 +218,6 @@ img, video {
 .image-11 {
   width: 474px;
   height: 461px;
-  background-color: #f17be7;
-  border: 1px solid #000;
   margin-top: 186px;
   margin-bottom: 188px;
 }
@@ -241,8 +230,6 @@ img, video {
 .image-12 {
   width: 475px;
   height: 676px;
-  background-color: #b66a6a;
-  border: 1px solid #000;
   margin-bottom: 273px;
 }
 
@@ -257,45 +244,33 @@ img, video {
 .image-13 {
   width: 360px;
   height: 453px;
-  background-color: #fd0d0d;
-  border: 1px solid #000;
   margin-top: 276px;
 }
 
 .image-14 {
   width: 569.035px;
   height: 521px;
-  background-color: #fd850d;
-  border: 1px solid #000;
   margin-top: 166px;
 }
 
 .image-15 {
   width: 322px;
   height: 627px;
-  background-color: #fdf50d;
-  border: 1px solid #000;
 }
 
 .image-16 {
   width: 562px;
   height: 550px;
-  background-color: #0dfd11;
-  border: 1px solid #000;
 }
 
 .image-17 {
   width: 296px;
   height: 388px;
-  background-color: #0d81fd;
-  border: 1px solid #000;
 }
 
 .image-18 {
   width: 417px;
   height: 681px;
-  background-color: #610dfd;
-  border: 1px solid #000;
   margin-bottom: 180px;
 }
 
@@ -308,10 +283,8 @@ img, video {
 }
 
 .image-19 {
-  width: 750px;
+  width: 850px;
   height: 721px;
-  background-color: #db7329;
-  border: 1px solid #000;
 }
 
 .bd {
@@ -322,47 +295,53 @@ img, video {
 }
 
 .image {
-  width: 500px;
-  height: 500px;
+  width: auto;
   border: 1px solid #000;
-  position: relative;
-}
-
-.image img {
-  position: absolute;
-  top: 9%;
-  right: 20%;
+  justify-content: center;
+  margin: 120px 0 109px 150px;
+  display: flex;
 }
 
 .presentation-text {
   text-align: center;
-  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px 0;
+  display: flex;
 }
 
-h2 {
+.presentation-text h2 {
+  margin-top: 12px;
   font-size: 17px;
 }
 
+.titre-furieuse {
+  margin: 10px 0 32px;
+}
+
 .presentation-text p {
+  margin-bottom: 20px;
   padding: 0 70px;
   font-size: 16px;
-  position: relative;
 }
 
 .button-achat {
+  width: 250px;
+  height: 43px;
   color: #fff;
   background-color: #000;
   border: 1px solid;
   border-radius: 30px;
+  margin: 14px 0;
 }
 
 .button-achat p {
+  padding: 13px 50px;
   font-size: 15px;
 }
 
 .lien-librairie {
   color: gray;
-  padding-top: 30px;
 }
 
 .footer {
@@ -374,23 +353,36 @@ h2 {
   display: flex;
 }
 
+.titre {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
 .logo p {
   color: #fff;
 }
 
 .communication {
   color: #fff;
+  width: 150px;
   flex-direction: row;
   justify-content: space-between;
   display: flex;
 }
 
-.dargaud {
-  width: 30%;
-}
-
 .dargaud .show-teaser {
   margin-top: 20px;
+}
+
+.dargaud-logo {
+  margin-bottom: 20px;
+}
+
+.a-propos h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
 }
 
 .confidentiel {
@@ -400,11 +392,18 @@ h2 {
   flex-direction: row;
   justify-content: flex-end;
   padding-bottom: 10px;
+  font-size: 12px;
   display: flex;
 }
 
+.confidentiel .droit-reserve {
+  margin-bottom: 10px;
+  margin-right: 23px;
+}
+
 .confidentiel .signature {
-  margin: 0 30px;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
