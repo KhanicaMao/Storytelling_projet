@@ -37,7 +37,7 @@ img, video {
   display: flex;
   position: absolute;
   top: 13px;
-  left: 760px;
+  left: 980px;
 }
 
 .button-nav {
@@ -127,11 +127,11 @@ a {
 }
 
 .hornement-narration-1 {
-  margin-top: 120px;
+  margin-top: 110px;
 }
 
 .hornement-narration-2 {
-  margin-bottom: 120px;
+  margin-bottom: 110px;
 }
 
 .element-selection-1 {
@@ -142,15 +142,15 @@ a {
 }
 
 .image-1 {
-  width: 378px;
+  width: 458px;
   height: 611px;
   margin-bottom: 120px;
 }
 
 .image-2 {
-  width: 378px;
+  width: 438px;
   height: 498px;
-  margin-bottom: 221px;
+  margin: 120px 0 221px;
 }
 
 .element-selection-2 {
@@ -161,13 +161,13 @@ a {
 }
 
 .image-3 {
-  width: 898px;
+  width: 1098px;
   height: 360px;
-  margin-bottom: 152px;
+  margin-bottom: 260px;
 }
 
 .image-4 {
-  width: 371px;
+  width: 451px;
   height: 381px;
   position: relative;
   left: 25%;
@@ -177,7 +177,8 @@ a {
   width: 663px;
   height: 284px;
   position: relative;
-  left: 35%;
+  top: 70px;
+  left: 40%;
 }
 
 .img-5 img {
@@ -192,20 +193,20 @@ a {
 }
 
 .image-6 {
-  width: 355px;
+  width: 405px;
   height: 376px;
   margin-top: 162px;
   position: relative;
-  left: 5%;
+  left: 10%;
 }
 
 .image-7 {
   z-index: 1;
-  width: 383px;
+  width: 453px;
   height: 423px;
   position: relative;
-  bottom: 150px;
-  right: 13%;
+  bottom: 120px;
+  right: 15%;
 }
 
 .element-selection-5 {
@@ -249,16 +250,16 @@ a {
 }
 
 .image-11 {
-  width: 474px;
+  width: 504px;
   height: 461px;
-  margin: 186px 0 188px;
+  margin: 186px 0 200px;
   position: relative;
   top: 150px;
   right: 30%;
 }
 
 .image-12 {
-  width: 975px;
+  width: 590px;
   height: 976px;
   position: relative;
   top: 150px;
@@ -272,9 +273,9 @@ a {
 }
 
 .image-13 {
-  width: 360px;
+  width: 420px;
   height: 453px;
-  margin-top: 106px;
+  margin-top: 80px;
   position: relative;
   left: 250px;
 }
@@ -282,7 +283,7 @@ a {
 .image-14 {
   width: 569.035px;
   height: 521px;
-  margin-top: 166px;
+  margin-top: 250px;
   position: relative;
   right: 250px;
 }
@@ -296,32 +297,32 @@ a {
 }
 
 .image-16 {
-  width: 562px;
+  width: 642px;
   height: 550px;
   position: relative;
   bottom: 190px;
-  right: 250px;
+  right: 290px;
 }
 
 .image-17 {
   width: 296px;
   height: 388px;
   position: relative;
-  bottom: 450px;
+  bottom: 400px;
   left: 280px;
 }
 
 .image-18 {
   position: relative;
-  bottom: 610px;
+  bottom: 530px;
   right: 20px;
 }
 
 .image-19 {
-  width: 1150px;
+  width: 1200px;
   height: 721px;
   position: relative;
-  bottom: 430px;
+  bottom: 380px;
 }
 
 .bd {
