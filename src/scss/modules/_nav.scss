@@ -1,30 +1,43 @@
 .nav {
   z-index: 1;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 30px;
-  color: white;
+  justify-content: end;
   position: absolute;
-  top: 13px;
-  left: 980px;
+  right: 20px;
+  margin-top: 20px;
 }
 
 .button-nav {
-  border: 1px solid currentColor;
+  border: 1px solid;
   border-radius: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #3c1223;
-}
-
-.point-de-vente {
   color: #3c1223;
   background-color: white;
 }
 
+.button-nav :hover {
+  border-radius: 30px;
+  color: white;
+  background-color: #3c1223;
+  transition: 0.5s;
+}
+
 .button-nav a p {
-  padding: 6px 20px;
+  font-size: 22px;
+  padding: 5px 20px;
+}
+
+.point-de-vente {
+  color: white;
+  background-color: #3c1223;
+}
+
+.point-de-vente :hover {
+  color: #3c1223;
+  background-color: white;
 }
 
 a {

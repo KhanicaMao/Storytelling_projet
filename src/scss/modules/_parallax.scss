@@ -1,47 +1,31 @@
-.parallax {
-  height: 90vh;
-  overflow-x: hidden;
+.header-parallax {
+  background-image: black;
+}
 
-  perspective: 1px;
+.header-parallax {
+  position: relative;
+  height: 85vh;
 }
 
 .parallax-layer {
   position: absolute;
-  top: 0;
-  right: 0;
   bottom: 0;
-  left: 0;
 }
 
-.layer1 {
-  transform: translateZ(0);
+.layer-1 {
+  top: 0%;
 }
 
-.layer2 {
-  transform: translateZ(-1px);
+.layer-2 {
+  top: 15%;
+  left: 29%;
+  width: 700px;
 }
 
-.layer3 {
-  transform: translateZ(0);
+.layer-3 {
+  top: 0%;
 }
 
-.parallax-layer.layer1 {
-  width: 100%;
-  height: 40rem;
-
-  margin-top: 20px;
-}
-
-.parallax-layer.layer2 {
-  top: 10rem;
-
-  width: 100%;
-  height: 50rem;
-}
-
-.parallax-layer.layer3 {
-  top: 10rem;
-
-  width: 100%;
-  height: 20rem;
+.spacer {
+  height: 10vh;
 }

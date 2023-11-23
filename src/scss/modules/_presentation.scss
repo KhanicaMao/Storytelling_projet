@@ -6,10 +6,10 @@
 }
 
 .image {
-  width: 90%;
+  width: 450px;
   display: flex;
   justify-content: center;
-  margin: 110px 0 95px 100px;
+  margin: 131px 0 95px 100px;
 }
 
 .presentation-text {
@@ -17,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 90px 0 90px 110px;
+  margin: 90px 0 90px;
 }
 
 .presentation-text h2 {
@@ -26,7 +26,7 @@
 }
 
 .titre-furieuse {
-  margin: 10px 0 32px 0;
+  margin: 10px 0 39px 0;
 }
 
 .presentation-text p {
@@ -47,6 +47,13 @@
 .button-achat p {
   font-size: 15px;
   padding: 13px 50px;
+}
+
+.button-achat:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.5s;
 }
 
 .lien-librairie {

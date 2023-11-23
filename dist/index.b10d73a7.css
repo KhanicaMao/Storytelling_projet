@@ -6,6 +6,7 @@
 
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,76 +31,94 @@ img, video {
 
 .nav {
   z-index: 1;
-  color: #fff;
+  width: 100vw;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 30px;
+  justify-content: end;
+  margin-top: 20px;
   display: flex;
   position: absolute;
-  top: 13px;
-  left: 980px;
+  right: 20px;
 }
 
 .button-nav {
-  background-color: #3c1223;
+  color: #3c1223;
+  background-color: #fff;
   border: 1px solid;
   border-radius: 30px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.point-de-vente {
-  color: #3c1223;
-  background-color: #fff;
+.button-nav :hover {
+  color: #fff;
+  background-color: #3c1223;
+  border-radius: 30px;
+  transition: all .5s;
 }
 
 .button-nav a p {
-  padding: 6px 20px;
+  padding: 5px 20px;
+  font-size: 22px;
+}
+
+.point-de-vente {
+  color: #fff;
+  background-color: #3c1223;
+}
+
+.point-de-vente :hover {
+  color: #3c1223;
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
 }
 
-.parallax {
-  height: 90vh;
-  perspective: 1px;
-  overflow-x: hidden;
+.scroll-button {
+  animation: button 2s ease-in-out infinite;
+  position: absolute;
+  bottom: 900px;
+  left: 750px;
+}
+
+@keyframes button {
+  0%, 100% {
+    transform: translateY(950px);
+  }
+
+  50% {
+    transform: translateY(1100px);
+  }
+}
+
+.header-parallax {
+  background-image: black;
+  height: 85vh;
+  position: relative;
 }
 
 .parallax-layer {
   position: absolute;
-  inset: 0;
+  bottom: 0;
 }
 
-.layer1 {
-  transform: translateZ(0);
+.layer-1 {
+  top: 0%;
 }
 
-.layer2 {
-  transform: translateZ(-1px);
+.layer-2 {
+  width: 700px;
+  top: 15%;
+  left: 29%;
 }
 
-.layer3 {
-  transform: translateZ(0);
+.layer-3 {
+  top: 0%;
 }
 
-.parallax-layer.layer1 {
-  width: 100%;
-  height: 40rem;
-  margin-top: 20px;
-}
-
-.parallax-layer.layer2 {
-  width: 100%;
-  height: 50rem;
-  top: 10rem;
-}
-
-.parallax-layer.layer3 {
-  width: 100%;
-  height: 20rem;
-  top: 10rem;
+.spacer {
+  height: 10vh;
 }
 
 .main {
@@ -109,12 +128,12 @@ a {
 .narration {
   color: #fff;
   text-align: center;
-  padding: 158px 300px;
+  padding: 300px;
   font-size: 30px;
 }
 
 .narration p {
-  margin: 47px 0;
+  margin: 60px 0;
   font-family: Lora;
   font-size: 40px;
   font-style: normal;
@@ -127,7 +146,7 @@ a {
 }
 
 .hornement-narration-1 {
-  margin-top: 110px;
+  margin-top: 0;
 }
 
 .hornement-narration-2 {
@@ -139,6 +158,10 @@ a {
   align-items: center;
   display: flex;
   position: relative;
+}
+
+.legende-1 {
+  margin-top: 250px;
 }
 
 .image-1 {
@@ -174,10 +197,10 @@ a {
 }
 
 .image-5 {
-  width: 663px;
+  width: 710px;
   height: 284px;
   position: relative;
-  top: 70px;
+  top: 90px;
   left: 40%;
 }
 
@@ -212,6 +235,7 @@ a {
 .element-selection-5 {
   flex-direction: row;
   align-items: center;
+  margin-top: 80px;
   display: flex;
 }
 
@@ -305,7 +329,7 @@ a {
 }
 
 .image-17 {
-  width: 296px;
+  width: 300px;
   height: 388px;
   position: relative;
   bottom: 400px;
@@ -315,7 +339,7 @@ a {
 .image-18 {
   position: relative;
   bottom: 530px;
-  right: 20px;
+  left: 240px;
 }
 
 .image-19 {
@@ -333,9 +357,9 @@ a {
 }
 
 .image {
-  width: 90%;
+  width: 450px;
   justify-content: center;
-  margin: 110px 0 95px 100px;
+  margin: 131px 0 95px 100px;
   display: flex;
 }
 
@@ -343,7 +367,7 @@ a {
   text-align: center;
   flex-direction: column;
   align-items: center;
-  margin: 90px 0 90px 110px;
+  margin: 90px 0;
   display: flex;
 }
 
@@ -353,7 +377,7 @@ a {
 }
 
 .titre-furieuse {
-  margin: 10px 0 32px;
+  margin: 10px 0 39px;
 }
 
 .presentation-text p {
@@ -374,6 +398,13 @@ a {
 .button-achat p {
   padding: 13px 50px;
   font-size: 15px;
+}
+
+.button-achat:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: all .5s;
 }
 
 .lien-librairie {
@@ -412,6 +443,11 @@ a {
   display: flex;
 }
 
+.communication a:hover {
+  opacity: .5;
+  transition: all .5s;
+}
+
 .dargaud .show-teaser {
   margin-top: 20px;
 }
@@ -431,7 +467,7 @@ a {
   width: 25%;
 }
 
-.lien a:hover {
+.a-propos a:hover, .lien a:hover {
   color: #f72072;
   opacity: .9;
 }
