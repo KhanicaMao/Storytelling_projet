@@ -120,11 +120,11 @@ a {
 
 @keyframes button {
   0%, 100% {
-    transform: translateY(950px);
+    transform: translateY(900px);
   }
 
   50% {
-    transform: translateY(1100px);
+    transform: translateY(1000px);
   }
 }
 
@@ -140,14 +140,14 @@ a {
 }
 
 .layer-1 {
-  height: 910px;
+  height: 970px;
   top: 0%;
 }
 
 .layer-2 {
-  width: 860px;
-  top: 8%;
-  left: 24%;
+  width: 880px;
+  top: 13%;
+  left: 23%;
 }
 
 .layer-3 {
@@ -172,10 +172,9 @@ a {
 .narration p {
   margin: 60px 0;
   font-family: Lora;
-  font-size: 40px;
+  font-size: 45px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 48px;
+  line-height: 60px;
 }
 
 .hornement-narration-1 .hornement-narration-2 {
@@ -191,7 +190,7 @@ a {
 }
 
 .legende-1 {
-  margin-top: 250px;
+  margin-top: 180px;
 }
 
 .image-1 {
@@ -343,7 +342,7 @@ a {
   width: 1200px;
   height: 721px;
   position: relative;
-  bottom: 380px;
+  bottom: 330px;
 }
 
 .bd {

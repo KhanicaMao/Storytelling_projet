@@ -544,8 +544,8 @@ document.addEventListener("DOMContentLoaded", function() {
             trigger: ".header-parallax",
             start: "top 80%"
         },
-        y: "-20px",
-        duration: 1.5,
+        y: "-30px",
+        duration: 1,
         delay: 1
     });
     (0, _gsap.gsap).from(".header-parallax", {
@@ -554,8 +554,44 @@ document.addEventListener("DOMContentLoaded", function() {
             start: "top 80%"
         },
         opacity: 0,
-        duration: 2,
+        duration: 1.5,
         delay: 1
+    });
+    (0, _gsap.gsap).to(".nav", {
+        scrollTrigger: {
+            trigger: ".nav",
+            start: "top 80%"
+        },
+        y: "-5px",
+        duration: 1,
+        delay: 2
+    });
+    (0, _gsap.gsap).from(".nav", {
+        scrollTrigger: {
+            trigger: ".nav",
+            start: "top 80%"
+        },
+        opacity: 0,
+        duration: 1.8,
+        delay: 2
+    });
+    (0, _gsap.gsap).to(".layer-3", {
+        scrollTrigger: {
+            trigger: ".layer-3",
+            start: "top 80%"
+        },
+        y: "-5px",
+        duration: 1,
+        delay: 2
+    });
+    (0, _gsap.gsap).from(".layer-3", {
+        scrollTrigger: {
+            trigger: ".layer-3s",
+            start: "top 80%"
+        },
+        opacity: 0,
+        duration: 1.8,
+        delay: 2
     });
     (0, _gsap.gsap).to(".image-1", {
         scrollTrigger: {
@@ -927,7 +963,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     tl.add("parallax");
     tl.to(".layer-1", {
-        y: "10%"
+        y: "3%"
     }, "parallax");
     tl.to(".layer-2", {
         y: "70%"
