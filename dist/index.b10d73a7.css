@@ -29,9 +29,41 @@ img, video {
   vertical-align: middle;
 }
 
+.element-selection-1, .element-selection-2 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.element-selection-4 {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+}
+
+.element-selection-5 {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+}
+
+.element-selection-6 {
+  flex-direction: row;
+  justify-content: end;
+  display: flex;
+}
+
+.element-selection-8 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
 .nav {
   z-index: 1;
-  width: 100vw;
   flex-direction: row;
   justify-content: end;
   margin-top: 20px;
@@ -75,6 +107,10 @@ a {
   text-decoration: none;
 }
 
+.header {
+  background-color: #000;
+}
+
 .scroll-button {
   animation: button 2s ease-in-out infinite;
   position: absolute;
@@ -104,13 +140,14 @@ a {
 }
 
 .layer-1 {
+  height: 910px;
   top: 0%;
 }
 
 .layer-2 {
-  width: 700px;
-  top: 15%;
-  left: 29%;
+  width: 860px;
+  top: 8%;
+  left: 24%;
 }
 
 .layer-3 {
@@ -153,13 +190,6 @@ a {
   margin-bottom: 110px;
 }
 
-.element-selection-1 {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
 .legende-1 {
   margin-top: 250px;
 }
@@ -174,13 +204,6 @@ a {
   width: 438px;
   height: 498px;
   margin: 120px 0 221px;
-}
-
-.element-selection-2 {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  position: relative;
 }
 
 .image-3 {
@@ -208,13 +231,6 @@ a {
   margin-top: 500px;
 }
 
-.element-selection-4 {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-  display: flex;
-}
-
 .image-6 {
   width: 405px;
   height: 376px;
@@ -230,13 +246,6 @@ a {
   position: relative;
   bottom: 120px;
   right: 15%;
-}
-
-.element-selection-5 {
-  flex-direction: row;
-  align-items: center;
-  margin-top: 80px;
-  display: flex;
 }
 
 .image-8 {
@@ -267,12 +276,6 @@ a {
   left: 13%;
 }
 
-.element-selection-6 {
-  flex-direction: row;
-  justify-content: end;
-  display: flex;
-}
-
 .image-11 {
   width: 504px;
   height: 461px;
@@ -288,12 +291,6 @@ a {
   position: relative;
   top: 150px;
   left: 250px;
-}
-
-.element-selection-8 {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
 }
 
 .image-13 {
