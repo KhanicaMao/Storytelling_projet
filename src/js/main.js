@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
       start: "top 90%",
     },
     y: "-150px",
-    duration: 1.5,
-    delay: 1,
+    duration: 0.5,
+    delay: 0.5,
   });
 
   gsap.from(".image-1", {
@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
       start: "top 80%",
     },
     opacity: 0,
-    duration: 2,
-    delay: 1,
+    duration: 0.5,
+    delay: 0.5,
   });
 
   gsap.to(".image-2", {
