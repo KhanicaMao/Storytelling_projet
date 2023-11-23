@@ -112,19 +112,21 @@ a {
 }
 
 .scroll-button {
+  flex-direction: row;
+  justify-content: end;
   animation: button 2s ease-in-out infinite;
+  display: flex;
   position: absolute;
-  bottom: 900px;
-  left: 750px;
+  right: 800px;
 }
 
 @keyframes button {
   0%, 100% {
-    transform: translateY(900px);
+    transform: translateY(100px);
   }
 
   50% {
-    transform: translateY(1000px);
+    transform: translateY(200px);
   }
 }
 
@@ -140,14 +142,13 @@ a {
 }
 
 .layer-1 {
-  height: 970px;
   top: 0%;
 }
 
 .layer-2 {
   width: 880px;
   top: 13%;
-  left: 23%;
+  left: 26%;
 }
 
 .layer-3 {
